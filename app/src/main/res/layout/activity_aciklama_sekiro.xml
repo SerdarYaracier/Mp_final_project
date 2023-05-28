@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg2"
+    tools:context=".aciklama_sekiro">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/sekiro3"
+        app:layout_constraintVertical_bias="0.009"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Shadows Die Twice'ta ölümün eşiğinden dönen, gözden düşmüş ve vücudu kısmen deforme bir savaşçı olan 'tek kollu kurt' karakterine bürüneceksin. Kadim bir soydan gelen genç bir lordu korumaya ant içtiğin için kendini Ashina klanı da dâhil çok sayıda düşmanın hedefi olarak bulacaksın. Genç lort yakalandığındaysa onurunu geri kazanmak için tehlikeli bir yolculuğa çıkmaktan seni hiçbir şey alıkoyamayacak, ölümün kendisi bile...
+
+Karanlık ve çarpık bir dünyada gerçeküstü düşmanlarla yüzleşirken Japonya'da 1500'lü yılların sonlarına denk gelen ve ölüm kalım mücadelesinin hüküm sürdüğü acımasız Sengoku dönemini keşfet. Ölümcül protez silahlarını ve güçlü ninja yeteneklerini kullanırken kanlı çatışmalarda gizlice yaklaşma, çaprazlama vuruş ve içgüdüsel bire bir çarpışma becerilerini hayata geçir.
+
+İntikamını al. Onurunu geri kazan. Ustalıkla öldür."
+        android:textSize="19dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

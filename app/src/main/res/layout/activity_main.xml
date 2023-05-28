@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pacman3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="272dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="Game Place"
+
+        android:textColor="@color/teal_200"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="281dp"
+        android:layout_height="260dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385">
+
+        <EditText
+            android:id="@+id/email_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="email"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.079" />
+
+        <EditText
+            android:id="@+id/password_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+
+            android:inputType="textPassword"
+            android:hint="Şifre Giriniz"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.386" />
+
+        <Button
+            android:id="@+id/btn_giris"
+            android:layout_width="214dp"
+            android:layout_height="48dp"
+            android:text="Giriş Yap"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.646" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hesabınız yok mu?"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.8" />
+
+        <Button
+            android:id="@+id/btn_kayit"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Hesap oluştur"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

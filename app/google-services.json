@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559469481547",
+    "project_id": "androidstudiofinalproject",
+    "storage_bucket": "androidstudiofinalproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559469481547:android:cbff9cd86b65ca8f1e07ce",
+        "android_client_info": {
+          "package_name": "com.example.cteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559469481547-ta0qg5luud5jhsu3unhql1l9sss1ecq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIeeIwo1wPm5qQWpa3tGJ3a7Fo_0UGF5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559469481547-ta0qg5luud5jhsu3unhql1l9sss1ecq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
